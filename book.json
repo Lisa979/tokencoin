@@ -1,0 +1,75 @@
+{
+    "author": "Lisa.wang",
+    "description": "代币系统用户手册",
+    "language": "zh-hans",
+    "extension": null,
+    "generator": "site",
+    "title": "代币系统用户手册",
+    "variables": {},
+    "output": null,
+    "plugins": [
+        "theme-comscore",
+        "splitter",
+        "expandable-chapters-small",
+        "favicon",
+        "highlight",
+        "sectionx",
+        "tbfed-pagefooter",
+        "github",
+        "-sharing",
+        "adsense",
+        "terminal"
+    ],
+    "pluginsConfig": {
+        "theme-default": {
+            "showLevel": false
+        },
+        "prism": {
+            "css": [
+                "prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
+            ]
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright © 金道 2018",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "simple-page-toc": {
+            "maxDepth": 3,
+            "skipFirstH1": true
+        },
+        "sectionx": {
+            "tag": "用户手册"
+        },
+        "github": {
+            "url": "http://git.gwghk.com:5080/lisa/tokencoin"
+        },
+        "sharing": {
+            "weibo": false,
+            "facebook": false,
+            "twitter": false,
+            "google": false,
+            "instapaper": false,
+            "vk": false,
+            "all": [
+                "facebook", "google", "twitter","weibo", "instapaper"
+            ]
+        },
+        "adsense": {
+           "client": "ca-pub-xxxx",
+           "slot": "xxx",
+           "format": "auto",
+           "element": ".page-inner section",
+           "position": "bottom"
+        },
+        "favicon": {
+            "shortcut": "favicon.ico",
+            "bookmark": "favicon.ico"
+        },
+        "terminal": {
+            "copyButtons": true,
+            "fade": false,
+            "style": "flat"
+        }
+    }
+}
